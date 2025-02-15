@@ -1,0 +1,30 @@
+#nome_usuario {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  #nome_usuario:focus {
+    border-color: #78b6f3;
+    box-shadow: 0 0 15px rgba(3, 123, 243, 0.6);
+    background-color: #fff;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+  
+  p:hover {
+    color: #0066cc;
+  }
+  
